@@ -1,0 +1,30 @@
+﻿<Window x:Class="WpfApp3.Reciptionist"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="Reciptionist" Height="450" Width="800">
+
+    <Grid>
+        <Frame x:Name="Main"/>
+        <Label Content="RECIPTIONIST" FontSize="12" FontFamily="Arial Black" HorizontalAlignment="Left" Margin="4,34,0,0" VerticalAlignment="Top" Width="106"/>
+        <Rectangle Fill="#362033" StrokeThickness="0" HorizontalAlignment="Left" Height="378" Margin="9,56,0,0" Stroke="Black" VerticalAlignment="Top" Width="95"/>
+        <Rectangle HorizontalAlignment="Center" Height="32" VerticalAlignment="Top" Width="800" Fill="#FF034F6F"/>
+        <Button Content="Log Out" FontSize="15" FontWeight="Bold" HorizontalAlignment="Left" Margin="699,1,0,0" VerticalAlignment="Top" Click="LoginRP" Height="29" Width="65" Background="#FF46C1E0" BorderBrush="{x:Null}"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="36,81,0,0" VerticalAlignment="Top" BorderBrush="{x:Null}" Height="34" Width="39" Click="PatientEntry">
+            <Button.Background>
+                <ImageBrush ImageSource="/imagesdfs.png"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Patient Entry" FontSize="11" FontWeight="Bold" HorizontalAlignment="Left" Margin="15,56,0,0" VerticalAlignment="Top" Foreground="White" Height="26" Width="88"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="36,149,0,0" VerticalAlignment="Top" BorderBrush="{x:Null}" Height="39" Width="39" Click="Invoice_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/2474482.png"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Invoice" FontSize="11" FontWeight="Bold" HorizontalAlignment="Left" Margin="29,124,0,0" VerticalAlignment="Top" Foreground="White" Height="26" Width="51"/>
+
+    </Grid>
+</Window>

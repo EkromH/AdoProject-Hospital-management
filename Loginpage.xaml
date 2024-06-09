@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfApp3.Loginpage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="Loginpage" Height="450" Width="800">
+
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="398" Margin="10,15,0,0" VerticalAlignment="Top" Width="761" Source="/hospital.jpg"/>
+        <Border Background="#FF034F6F" Margin="492,37,0,0" CornerRadius="25 0 0 0">
+            <StackPanel>
+            </StackPanel>
+        </Border>
+
+        <Label Content="Username" FontSize="15" FontWeight="Bold" HorizontalAlignment="Left" Margin="521,135,0,0" VerticalAlignment="Top" Background="#00000000" Foreground="White"/>
+        <TextBox Name="txtUsername" HorizontalAlignment="Left" FontSize="18" Margin="616,137,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="147"/>
+        <Label Content="Password" FontWeight="Bold" FontSize="15" HorizontalAlignment="Left" Margin="521,171,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <PasswordBox Name="txtPassword" HorizontalAlignment="Left" FontSize="18"  Margin="616,173,0,0" VerticalAlignment="Top" Width="147"/>
+        <Label Content="User Login" FontSize="25" FontWeight="Bold" HorizontalAlignment="Left" Margin="578,54,0,0" VerticalAlignment="Top" Foreground="#FF116A80"/>
+        <Button Name="btnLogin" FontSize="15"  Click="btnLogin_Click" Width="234" FontWeight="Bold" Height="27" Content="Login" HorizontalAlignment="Left" Margin="529,211,0,0" VerticalAlignment="Top" Background="#FF0A96B1"/>
+        <Rectangle HorizontalAlignment="Center" Height="32" VerticalAlignment="Top" Width="800" Fill="#FF034F6F"/>
+        <Button Content="Login" FontSize="15" FontWeight="Bold" HorizontalAlignment="Left" Margin="725,2,0,0" VerticalAlignment="Top"  Height="28" Width="65" Background="#FF46C1E0" BorderBrush="{x:Null}"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,18 @@
+﻿<Page x:Class="WpfApp3.ReportLoad"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp3"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ReportLoad">
+
+    <Grid Background="White">
+        <Frame x:Name="adPrint"/>
+        <Label Content="Test Details" FontWeight="Bold" FontSize="18" HorizontalAlignment="Left" Margin="446,59,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnPrint" Content="Print" FontWeight="Bold" HorizontalAlignment="Left" Margin="646,367,0,0" VerticalAlignment="Top" Height="35" Width="98" Click="PrintClick"/>
+        <DataGrid x:Name="dgReportLoad" Margin="256,87,36,88"/>
+
+    </Grid>
+</Page>

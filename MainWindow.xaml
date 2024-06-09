@@ -1,0 +1,45 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Frame x:Name="adMain"/>
+        <Label Content="ADMIN" FontSize="13" FontFamily="Arial Black" HorizontalAlignment="Left" Margin="26,31,0,0" VerticalAlignment="Top" Width="62"/>
+        <Rectangle Fill="#362033" StrokeThickness="0" HorizontalAlignment="Left" Height="378" Margin="9,56,0,0" Stroke="Black" VerticalAlignment="Top" Width="95"/>
+        <Rectangle HorizontalAlignment="Center" Height="32" VerticalAlignment="Top" Width="800" Fill="#FF034F6F"/>
+        <Button Content="Log Out" FontSize="15" FontWeight="Bold" HorizontalAlignment="Left" Margin="695,1,0,0" VerticalAlignment="Top" Click="LoginP" Height="29" Width="70" Background="#FF46C1E0" BorderBrush="{x:Null}"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="36,81,0,0" VerticalAlignment="Top" BorderBrush="{x:Null}" Height="34" Width="39" Click="EmpEntry">
+            <Button.Background>
+                <ImageBrush ImageSource="/imssagesdfs.png"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Employee Add" FontSize="11" FontWeight="Bold" HorizontalAlignment="Left" Margin="13,56,0,0" VerticalAlignment="Top" Foreground="White" Height="26" Width="88"/>
+        <Label Content="Patient Entry" FontSize="11" FontWeight="Bold" HorizontalAlignment="Left" Margin="16,122,0,0" VerticalAlignment="Top" Foreground="White" Height="26" Width="88"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="36,145,0,0" VerticalAlignment="Top" BorderBrush="{x:Null}" Height="34" Width="39" Click="PatientE">
+            <Button.Background>
+                <ImageBrush ImageSource="/imagesdfs.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnInv" Content="" HorizontalAlignment="Left" Margin="36,207,0,0" VerticalAlignment="Top" BorderBrush="{x:Null}" Height="39" Width="39" Click="Invoice_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/2474482.png"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Invoice" FontSize="11" FontWeight="Bold" HorizontalAlignment="Left" Margin="33,185,0,0" VerticalAlignment="Top" Foreground="White" Height="26" Width="60"/>
+        <Label Content="Test Entry Report" FontSize="8" FontWeight="Bold" HorizontalAlignment="Left" Margin="17,260,0,0" VerticalAlignment="Top" Foreground="White" Height="26" Width="85"/>
+        <Button x:Name="btnEntry" Content="" HorizontalAlignment="Left" Margin="40,286,0,0" VerticalAlignment="Top" Height="39" Width="39" Click="EntryView">
+            <Button.Background>
+                <ImageBrush ImageSource="/entry-icon-design-free-vector (1).jpg"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+
+
+
+</Window>
+ 
