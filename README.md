@@ -2,7 +2,8 @@
 ADO.NET facilitates data access in .NET applications, while Crystal Reports
 enables sophisticated report generation. Together, they can efficiently manage and display detailed Patient and Test data in master-detail patterns.
 # Features
-. Patient Management: Register new patients, manage patient information, and track medical histories.
+* Patient Management: Register new patients, manage patient information, and track medical histories.
+
 . Doctor Management: Add and manage doctor profiles, including their specializations and availability.
 . Appointment Scheduling: Book and manage appointments between patients and doctors.
 . Medical Records: Maintain and access patient records, including treatment histories and prescriptions.
