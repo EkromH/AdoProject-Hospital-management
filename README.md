@@ -11,15 +11,25 @@ enables sophisticated report generation. Together, they can efficiently manage a
 * User Authentication: Implement secure login with role-based access for administrators, doctors, and other hospital staff.
 # Technologies Used
 Frontend: Windows Forms (WDF)
+
 Backend: ADO.NET, C#
+
 Database: SQL Server
+
 Reporting: Crystal Reports
+
 Tools: Visual Studio, Git
+
 
 
 # Installation
 Prerequisites
+
 .NET Framework 4.x
+
 SQL Server
+
 Visual Studio 2019 or later
+
 Crystal Reports Runtime (for viewing and generating reports)
+
